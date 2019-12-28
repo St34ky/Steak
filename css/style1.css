@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: lightpink;
+    font-size: 35px;
+    color: darkorchid;
+}
+
+ul{
+    width: 50%;
+    height:auto;
+    display:flex;
+    margin:0;
+    padding: 50px;
+    border: 2px solid darkorchid;
+    border-radius: 25px 0 25px 0;
+    justify-content: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: white;
+}
+
+ul li{
+    list-style-type: none;
+    transition: .9s ease-in-out;
+}
+
+ul:hover li{
+    transform: rotateY(360deg);
+    color: black;
+    margin: 0px 5px;
+}
